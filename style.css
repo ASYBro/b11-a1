@@ -59,3 +59,57 @@ nav {
   max-width: 622px;
   margin: 0 auto;
 }
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* Vision Css */
+.vision {
+  padding: 80px 0;
+}
+.vision-title {
+  font-size: 40px;
+  font-weight: 700;
+  opacity: 100%;
+}
+.vision-title-p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 80%;
+  margin-top: 24px;
+}
+.sections {
+  display: flex;
+  margin-top: 32px;
+  gap: 24px;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 80%;
+  margin-top: 24px;
+}
+.section-p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  margin-top: 12px;
+}
+.section-button {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5490f5;
+  margin-top: 24px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+}
+.section {
+  background-color: #006a50;
+  width: 410px;
+  height: 325px;
+  border-radius: 10px;
+  padding: 32px 32px;
+}
