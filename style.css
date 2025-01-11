@@ -12,11 +12,11 @@
   border-color: #006a50;
   background-color: #006a50;
   font-weight: 600;
-  color: black;
+  color: white;
 }
 .btn:hover {
   background-color: #f30200;
-  color: black;
+  color: white;
 }
 .oe-color {
   color: #0e0e0e;
@@ -112,4 +112,55 @@ main {
   height: 325px;
   border-radius: 10px;
   padding: 32px 32px;
+}
+/* News css */
+.news-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.news-p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.launches {
+  display: flex;
+  margin: 48px;
+  justify-content: space-around;
+  text-align: justify;
+  gap: 32px;
+}
+.logoimg {
+  margin-top: 12px;
+}
+
+.launches-img {
+  border-radius: 24px;
+}
+.description-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.description-time {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.description-p {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.description-button {
+  margin-top: 40px;
+}
+.launches-2 {
+  display: flex;
+  margin: 48px;
+  justify-content: flex-start;
+  text-align: justify;
+  gap: 32px;
+  flex-direction: row-reverse;
 }
