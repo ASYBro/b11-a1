@@ -13,6 +13,7 @@
   background-color: #006a50;
   font-weight: 600;
   color: white;
+  border: none;
 }
 .btn:hover {
   background-color: #f30200;
@@ -163,4 +164,47 @@ main {
   text-align: justify;
   gap: 32px;
   flex-direction: row-reverse;
+}
+/* donate Css */
+.donate {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0px;
+}
+.donate-title {
+  font-weight: 700;
+  font-size: 40px;
+}
+.donate-para {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  padding-top: 24px;
+}
+.button-donates {
+  padding: 32px 0px;
+}
+.button-donate {
+  width: 240px;
+  height: 128px;
+  font-size: 30px;
+  font-weight: 700;
+  column-gap: 24px;
+  gap: 35px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 32px 0px;
+  margin: 8px 0;
+  text-align: center;
+  opacity: 70%;
+  border: none;
+}
+.donate-button {
+  font-weight: 600;
+  font-size: 18px;
+}
+.last-button {
+  padding-top: 32px;
 }
