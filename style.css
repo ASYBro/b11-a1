@@ -208,3 +208,17 @@ input[type="text"] {
 .last-button {
   padding-top: 32px;
 }
+/* fotter Css */
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+.footer-title {
+  padding: 32px 0px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.footer-img {
+  padding: 0px 23px;
+}
